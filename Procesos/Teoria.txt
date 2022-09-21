@@ -1,0 +1,11 @@
+Clase Thread
+-------------------------------------
+java -version -> version java en cmd
+working sets -> (tres puntitos del package explorer)carpeta, donde meteremos los proyectos
+
+thread tiene el metodo run implementado de runnable(interfaz) y ProcesoHijo hereda Thread que ya tiene eso implementado, 
+solo habría que sobreescribirlo
+
+al ejecutar el start() empiezan los procesos pasan de ser uno a ser dos ejecutandose el run() y se ejecutaran de forma simultanea
+
+super() llama al constructor padre, es decir, del que hereda
