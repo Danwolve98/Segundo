@@ -23,7 +23,6 @@ public class ProcesoHijo extends Thread {
 			System.out.println("Hija: Hola soy tu hija -> " + this.getName());
 			System.out.println("Hija: Adios padre");
 		}
-		
 	}
 	
 }

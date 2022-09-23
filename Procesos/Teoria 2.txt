@@ -1,0 +1,2 @@
+Si implementa una interfaz, obligatorio implementar los metodos de esa interfaz.
+Es mejor implementar la interfaz, ya que interfaces se pueden implementar muchas, pero extender solo una.
