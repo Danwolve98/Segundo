@@ -1,22 +1,22 @@
 
-public class ProcesoHijo implements Runnable {
+public class ProcesoHijoThread extends Thread{
 
-	Thread procesohijo;
-
-	public ProcesoHijo() {
+	public ProcesoHijoThread() {
 		super();
-		procesohijo = new Thread(this);
-		procesohijo.start();
 		// TODO Auto-generated constructor stub
 	}
 
 	@Override
 	public void run() {
 		// TODO Auto-generated method stub
+		super.run();
 		for (int i = 0; i < 20000000; i++) {
 			System.out.println("Cuenta del hijo: " + i);
 		}
-
 	}
+	
+	
 
+	
+	
 }
