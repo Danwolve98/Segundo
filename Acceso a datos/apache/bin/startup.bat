@@ -19,7 +19,7 @@ rem Start script for the CATALINA Server
 rem ---------------------------------------------------------------------------
 
 setlocal
-
+set "JAVA_HOME=C:\Program Files\Java\jdk-18.0.1"
 rem Guess CATALINA_HOME if not defined
 set "CURRENT_DIR=%cd%"
 if not "%CATALINA_HOME%" == "" goto gotHome
